@@ -69,4 +69,14 @@ print(f"Predicted stock prices for day 11 and 12: {predicted_prices}")
 ### Summary
 
 Using Chebyshev polynomials in financial forecasting helps create **more accurate and computationally efficient models** for predicting future stock prices and trends. This technique allows analysts and investors to **make better data-driven decisions** with a **higher level of confidence in volatile markets**.
+
+## Tensoring Volatility Calibration: The Power of Chebyshev
+
+Join Ignacio Ruiz and Mariano Zeron to explore how the computational bottleneck in the calibration of the rough Bergomi volatility model can be alleviated using Chebyhsev Tensors.
+
+A series of papers have explored the use of Deep Neural Nets to substantially speed up the calibration of pricing models. This paper uses Chebyshev Tensors for the same purpose. In particular, it shows how the computational bottleneck in the calibration of the rough Bergomi volatility model can be alleviated using Chebyhsev Tensors. The calibration speed and accuracy obtained in this paper is comparable to when Deep Neural Nets are used. Building efforts, however, are up to 100 times lower, allowing for much faster pricing model proxy update – a feature of particular importance at times of market distress. This constitutes a further enhancement over the already sizable improvement provided by Deep Neural Nets.
+
+Dr. Ignacio Ruiz is Founder & CEO of MoCaX Intelligence, a niche company specialised in algorithmic High-Performance Computing & AI. Previously, he held Vice President and Director-level positions in quantitative risk management in Credit Suisse, BNP Paribas and Scotiabank. He has co-authored the book “Machine Learning for Risk Calculations”. He authored also “XVA Desks”, and has published several quantitative articles in top journals. He holds a Ph.D. in Physics from Cambridge University.
+
+Dr. Mariano Zeron is an expert in quantitative analytics of Machine Learning in risk calculations. He is currently the Head of Analytics at Cognext, and he has been the Head of R&D at MoCaX Intelligence. He has co-authored the book “Machine Learning for Risk Calculations”. He has vast experience in Chebyshev Tensors machine-learning and related disciplines, and their application to quantitative problems in the financial markets. Mariano holds a Ph.D. in Mathematics from Cambridge University.
  
